@@ -7,13 +7,10 @@
       sprite: Mobs/Demons/abomination.rsi
       state: abomination
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: StaffRolesReq
-  category: Staff
+  category: Public
 
 - type: ghostTheme
-  id: SpaceDragonStaffTheme
+  id: SpaceDragonPublicTheme
   name: Space Dragon
   description: Giant space fish.
   colorizeable: true
@@ -22,10 +19,7 @@
       sprite: Mobs/Aliens/Carps/dragon.rsi
       state: alive
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: StaffRolesReq
-  category: Staff
+  category: Public
 
 - type: ghostTheme
   id: BuffRatKingTheme
@@ -37,10 +31,7 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-buff-rat-king
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
-  category: Staff
+  category: Public
 
 - type: ghostTheme
   id: FoxTheme
@@ -52,10 +43,7 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-fox
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
-  category: Staff
+  category: Public
 
 - type: ghostTheme
   id: LizardPlushie
@@ -67,10 +55,7 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-lizard-plushie
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
-  category: Staff
+  category: Public
 
 - type: ghostTheme
   id: MothroachTheme
@@ -82,10 +67,7 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-mothroach
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
-  category: Staff
+  category: Public
 
 - type: ghostTheme
   id: ScurretTheme
@@ -97,10 +79,7 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-scurret
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: TicketsAdministratorReq
-  category: Staff
+  category: Public
 
 - type: ghostTheme
   id: WispTheme
@@ -112,10 +91,7 @@
       sprite: _Starlight/CosmicCult/Mobs/wisp.rsi
       state: wisp
       shader: unshaded
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: SeniorDeveloperReq
-  category: Staff
+  category: Public
 
 - type: ghostTheme
   id: CustodianTheme
@@ -126,7 +102,4 @@
     sprite:
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-custodian
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: DeveloperReq
-  category: Staff
+  category: Public

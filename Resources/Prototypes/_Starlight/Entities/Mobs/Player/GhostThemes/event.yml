@@ -8,9 +8,7 @@
       state: ghost-king
     color: "#ffffff"
   requirements:
-  - !type:DiscordRolesRequirement
-    requirement: GoldEventWinnerReq
-  category: Event
+  category: Public
 
 - type: ghostTheme
   id: CarpGames
@@ -21,10 +19,7 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-carpman
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: CarpGamesReq
-  category: Event
+  category: Public
 
 - type: ghostTheme
   id: FirstWritingContest
@@ -35,7 +30,4 @@
       sprite: _Starlight/Mobs/Customization/GhostThemes/ghosts.rsi
       state: ghost-mage
     color: "#ffffff"
-  requirements:
-  - !type:DiscordRolesRequirement
-    requirement: FirstWritingContestReq
-  category: Event
+  category: Public
